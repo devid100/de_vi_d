@@ -18522,8 +18522,8 @@ local Teext =[[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '•ᴅᴇᴠɪᴅ♪',url="t.me/de_vi_d"},{text = '•ᴀʜᴍᴀᴅ♪', url="t.me/YYYBD"}},
-{{text = '•ᴅᴇᴠɪᴅ♪',url="t.me/de_vi_d"},{text = '•ʀᴏʙᴏᴛ♪', url="t.me/P_X_U"}},
+{{text = '•ʜᴇᴍᴏ♪',url="t.me/SSSSSSY"},{text = '•ʜᴇᴍᴏ♪', url="t.me/SSSSSSY"}},
+{{text = '•ʜᴇᴍᴏ♪',url="t.me/SSSSSSY"},{text = '•ʜᴇᴍᴏ♪', url="t.me/SSSSSSY"}},
 {{text = ' مــطــور الــبــوت🔰', url="http://t.me/"..sudos.UserName}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
