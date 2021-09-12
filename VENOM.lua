@@ -381,7 +381,7 @@ elseif tonumber(user_id) == tonumber(1653217802) then
 var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(1785825545) then
 var = 'مبرمج السورس'
-elseif tonumber(user_id) == tonumber(1360140225) then
+elseif tonumber(user_id) == tonumber(1877824643) then
 var = 'المبرمج ديـفـيـد'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
