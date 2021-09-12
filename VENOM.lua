@@ -3661,7 +3661,7 @@ end
 return false
 end
 os.execute('rm -rf VENOM.lua')
-os.execute('wget https://raw.githubusercontent.com/devid100/de_vi_dmain/VENOM.lua')
+os.execute('wget https://raw.githubusercontent.com/devid100/de_vi_d/main/VENOM.lua')
 send(msg.chat_id_, msg.id_,' ● تم تحديث السورس')
 dofile('VENOM.lua')  
 end
