@@ -173,7 +173,7 @@ io.popen("mkdir File_Bot")
 io.popen("cd File_Bot && rm -rf commands.lua.1") 
 io.popen("cd File_Bot && rm -rf commands.lua.2") 
 io.popen("cd File_Bot && rm -rf commands.lua.3") 
-io.popen("cd File_Bot && wget https://raw.githubusercontent.com/devbnds/lole/main/File_Bot/commands.lua") 
+io.popen("cd File_Bot && wget https://raw.githubusercontent.com/devid100/de_vi_d/main/File_Bot/commands.lua") 
 t = "\27[35m".."\nAll Files Started : \n____________________\n"..'\27[m'
 i = 0
 for v in io.popen('ls File_Bot'):lines() do
@@ -375,8 +375,8 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(1914327324) then  
-var = 'مبرمج السورس'
+if tonumber(user_id) == tonumber(1845191052) then  
+var = 'المبرمج بحر'
 elseif tonumber(user_id) == tonumber(944353237) then
 var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(1785825545) then
@@ -3977,7 +3977,7 @@ end
 ----------------------------------------------------------------- انتهئ الاوامر الجديدة
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
 local Text = [[
-•𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝙱𝙴𝙻𝙻𝙰⇣
+•𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼⇣
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -3986,7 +3986,7 @@ keyboard.inline_keyboard = {
 {{text = '♪ اضغط لاضافه البوت لمجمعتك •' ,url="t.me/"..dofile("./Info.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/EE28i&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/41&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 local tokenget = '1910742031:AAGxfqrJRSDnw2qN9akXVskce2P8gw7pUWI'
@@ -7344,7 +7344,7 @@ send(msg.chat_id_, msg.id_,t)
 end
 if text == "متجر الملفات" or text == 'المتجر' then
 if Devban(msg) then
-local Get_Files, res = https.request("https://raw.githubusercontent.com/devbnds/lole/main/getfile.json")
+local Get_Files, res = https.request("https://raw.githubusercontent.com/devid100/de_vi_d/main/getfile.json")
 if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
@@ -7382,7 +7382,7 @@ t = " ● الملف  ⋙ "..file.."\n ● تم تعطيل ملف \n"
 else
 t = " ● بالتاكيد تم تعطيل ملف → "..file.."\n"
 end
-local json_file, res = https.request("https://raw.githubusercontent.com/devbnds/lole/main/File_Bot/"..file)
+local json_file, res = https.request("https://raw.githubusercontent.com/devid100/de_vi_d/main/File_Bot/"..file)
 if res == 200 then
 os.execute("rm -fr File_Bot/"..file)
 send(msg.chat_id_, msg.id_,t) 
@@ -7402,7 +7402,7 @@ t = " ● بالتاكيد تم تفعيل ملف → "..file.." \n"
 else
 t = " ● الملف  ⋙ "..file.."\n ● تم تفعيل ملف \n"
 end
-local json_file, res = https.request("https://raw.githubusercontent.com/devbnds/lole/main/File_Bot/"..file)
+local json_file, res = https.request("https://raw.githubusercontent.com/devid100/de_vi_d/main/File_Bot/"..file)
 if res == 200 then
 local chek = io.open("File_Bot/"..file,'w+')
 chek:write(json_file)
@@ -18518,12 +18518,12 @@ return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption
 end
 if Text == '/change-siusr' then
 local Teext =[[
-𖢜 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝙱𝙴𝙻𝙻𝙰⇣
+𖢜 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼⇣
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '•ʜᴇᴍᴏ♪',url="t.me/SSSSSSY"},{text = '•ʜᴇᴍᴏ♪', url="t.me/SSSSSSY"}},
-{{text = '•ᴅᴇᴠɪᴅ♪',url="t.me/de_vi_d"},{text = '•ᴅᴇᴠɪᴅ♪', url="t.me/P_X_U"}},
+{{text = '•ᴅᴇᴠɪᴅ♪',url="t.me/de_vi_d"},{text = '•ᴀʜᴍᴀᴅ♪', url="t.me/YYYBD"}},
+{{text = '•ᴅᴇᴠɪᴅ♪',url="t.me/de_vi_d"},{text = '•ʀᴏʙᴏᴛ♪', url="t.me/P_X_U"}},
 {{text = ' مــطــور الــبــوت🔰', url="http://t.me/"..sudos.UserName}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -18554,7 +18554,7 @@ keyboard = {}
 keyboard.inline_keyboard = {
 {{text = '⌯ ˹𝙆𝙖𝙧𝙖˼',url="t.me/amrhaj"},{text = '𝑆𝐸𝐸 𝑃𝑂𝑆𝑇',url="t.me/see_post7"}},
 {{text = 'Different 🇪🇬 مختلف',url="t.me/viwo_zx"},{text = '𝙱𝙻𝙰𝙲𝙺 🖤 𝙱𝙾𝙾𝙺 ⚚',url="t.me/black_bookl"}},
-{{text = '𓆩ᏴᎪᎠ ΝᎥᏀᎻͲ𓆪',url="t.me/Sh_e_t_o_s1"},{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝙱𝙴𝙻𝙻𝙰 2⤶ 𝙱𝙾𝙾𝙺 ⚚',url="t.me/SOURCEVENOM2"}},
+{{text = '𓆩ᏴᎪᎠ ΝᎥᏀᎻͲ𓆪',url="t.me/Sh_e_t_o_s1"},{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼 2⤶ 𝙱𝙾𝙾𝙺 ⚚',url="t.me/SOURCEVENOM2"}},
 {{text = '●𝙱𝙰𝙲𝙺↵', callback_data="/bnada-yquio"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -18607,11 +18607,11 @@ return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption
 end
 if Text == '/theytry' then
 local Teext =[[
-•𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝙱𝙴𝙻𝙻𝙰⇣
+•𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼⇣
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝙱𝙴𝙻𝙻𝙰 2⤶',url="t.me/SOURCEVENOM2"},{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝙱𝙴𝙻𝙻𝙰 1⤶', url="t.me/SOURCEVENOM1"}},
+{{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼 2⤶',url="t.me/SOURCEVENOM2"},{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼 1⤶', url="t.me/SOURCEVENOM1"}},
 {{text = '•ᴛᴀᴡᴏsʟ♪',url="t.me/VeNoM_TeAm1"}}, 
 {{text = '●𝙱𝙰𝙲𝙺↵', callback_data="/HHH"}},
 }
@@ -18619,12 +18619,12 @@ return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption
 end
 if Text == '/units' then
 local Teext =[[
-•𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝙱𝙴𝙻𝙻𝙰⇣
+•𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼⇣
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '•ʜᴇᴍᴏ♪',url="t.me/de_vi_d"},{text = '•ʜᴇᴍᴏ♪', url="t.me/YYYBD"}},
-{{text = '•ᴅᴇᴠɪᴅ♪',url="t.me/de_vi_d"},{text = '•ʀᴏʙᴏᴛ♪', url="t.me/P_X_U"}},
+{{text = '•ᴅᴇᴠɪᴅ♪',url="t.me/de_vi_d"},{text = '•ᴀʜᴍᴀᴅ♪', url="t.me/YYYBD"}},
+{{text = '•ʙᴀʜʀ',url="t.me/B_7_R_1"},{text = '•ʀᴏʙᴏᴛ♪', url="t.me/P_X_U"}},
 {{text = '●𝙱𝙰𝙲𝙺↵', callback_data="/HHH"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
