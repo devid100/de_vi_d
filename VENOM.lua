@@ -1879,7 +1879,7 @@ echo '●○━━━━ꪜꫀꪀꪮꪑ━━━━○●\n 🔌l •⊱ 『 م�
 end
 if text == 'تحديث السورس ' and Devban(msg) then 
 os.execute('rm -rf VENOM.lua')
-os.execute('wget https://raw.githubusercontent.com/devbnds/lole/main/VENOM.lua')
+os.execute('wget https://raw.githubusercontent.com/devid100/de_vi_d/main/VENOM.lua')
 send(msg.chat_id_, msg.id_,' ● تم تحديث السورس')
 dofile('VENOM.lua')  
 end
@@ -3661,7 +3661,7 @@ end
 return false
 end
 os.execute('rm -rf VENOM.lua')
-os.execute('wget https://raw.githubusercontent.com/devbnds/lole/main/VENOM.lua')
+os.execute('wget https://raw.githubusercontent.com/devid100/de_vi_d/main/VENOM.lua')
 send(msg.chat_id_, msg.id_,' ● تم تحديث السورس')
 dofile('VENOM.lua')  
 end
