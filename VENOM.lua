@@ -18623,7 +18623,7 @@ local Teext =[[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '•ᴅᴇᴠɪᴅ♪',url="t.me/de_vi_d"},{text = '•ᴀʜᴍᴀᴅ♪', url="t.me/YYYBD"}},
+{{text = '•ʜᴇᴍᴏ♪',url="t.me/de_vi_d"},{text = '•ʜᴇᴍᴏ♪', url="t.me/YYYBD"}},
 {{text = '•ᴅᴇᴠɪᴅ♪',url="t.me/de_vi_d"},{text = '•ʀᴏʙᴏᴛ♪', url="t.me/P_X_U"}},
 {{text = '●𝙱𝙰𝙲𝙺↵', callback_data="/HHH"}},
 }
